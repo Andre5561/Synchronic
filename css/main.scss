@@ -1,0 +1,369 @@
+$card-color:linear-gradient(45deg, rgba(0,198,251,1), rgba(0,91,234,1));
+$text-color:rgba(255, 255, 255, 1);
+$buton-color:linear-gradient(45deg, rgba(41,50,60,1), rgba(72,85,99,1)); ;
+$footer-color:rgba(82, 87, 92, 1);
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+    max-width: 600px;
+}
+
+body {
+    
+    background-image: url('../Images/synchronic-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat, no-repeat;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 800px 90px;
+    background-image: url('../Images/tooth-bg.png');
+    background-position: center;
+    background-repeat: repeat;
+   
+
+
+    .logo {
+        font-family:'Arial', sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        color: rgba(0, 0, 0, 1);
+    }
+
+}
+
+
+
+.content {
+
+    padding: 32px 40px 20px 40px;
+    position: absolute;
+
+
+    .first-card {
+        
+        padding: 21px 240px 55px 20px; 
+        height: 300px;
+     
+    
+        background: 
+
+        $card-color;
+        
+        border-radius: 17px;
+        position: relative;
+        z-index: 2;
+        margin-bottom: 20px;
+
+
+        .prize {
+            background-image: url('../Images/MAC.png');
+            background-repeat: no-repeat;
+            background-size: 210px 210px;
+            position: absolute; 
+            right: 10px;
+            top: 50%; 
+            transform: translateY(-50%); 
+            width: 210px;
+            height: 210px;
+        }
+        
+       
+       
+
+      .text-container {
+       
+      
+        font-family:'Arial', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: $text-color;
+       
+        
+      }
+
+      .sub-text {
+        font-family:'Arial', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        height: 100px;
+        color:  $text-color;
+        margin-bottom: 12px;
+
+      }
+
+      
+
+      .play {
+        width: 140px;
+        height: 40px;
+        border-radius: 100px;
+        padding: 8px 50px 8px 50px;
+        background:$buton-color ;
+        border: none;
+        font-family:'Arial', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        color:  $text-color;
+        text-align: center;
+      }
+
+      
+
+
+    }
+
+
+    .second-card {
+        
+        padding: 21px 240px 55px 20px; 
+        height: 300px;
+     
+    
+        background: 
+
+        $card-color;
+        
+        border-radius: 17px;
+        position: relative;
+        z-index: 2;
+        margin-bottom: 20px;
+
+
+        .prize {
+            background-image: url('../Images/Ipad.png');
+            background-repeat: no-repeat;
+            background-size: 210px 210px; 
+            position: absolute; 
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%); 
+            width: 210px; 
+            height: 210px; 
+        }
+
+
+        .text-container {
+       
+      
+            font-family:'Arial', sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            color: $text-color;
+           
+            
+          }
+    
+          .sub-text {
+            font-family:'Arial', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            height: 100px;
+            color:  $text-color;
+            margin-bottom: 12px;
+    
+          }
+
+
+          .play {
+            width: 140px;
+            height: 40px;
+            border-radius: 100px;
+            padding: 8px 50px 8px 50px;
+            background:$buton-color ;
+            border: none;
+            font-family:'Arial', sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            color:  $text-color;
+            text-align: center;
+          }
+    
+
+    }
+
+
+    .third-card {
+        
+        padding: 21px 240px 55px 12px; 
+        height: 230px;
+     
+    
+        background: 
+
+        $card-color;
+        
+        border-radius: 17px;
+        position: relative;
+        z-index: 2;
+        margin-bottom: 20px;
+
+
+        .text-container {
+       
+            margin-top: 30px;
+            font-family:'Arial', sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            color: $text-color;
+           
+            
+          }
+    
+          .sub-text {
+            font-family:'Arial', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            height: 50px;
+            color:  $text-color;
+            margin-bottom: 12px;
+    
+          }
+
+
+          .prize {
+            background-image: url('../Images/Chest.png');
+            background-repeat: no-repeat;
+            background-size: 210px 210px; 
+            position: absolute; 
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%); 
+            width: 210px; 
+            height: 210px; 
+        }
+
+
+        .button-container {
+            margin-bottom: 0;
+        }
+
+        .take {
+            width: 140px;
+            height: 40px;
+            border-radius: 100px;
+            padding: 12px 50px 8px 50px;
+            background:$buton-color ;
+            border: none;
+            font-family:'Arial', sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            color:  $text-color;
+            text-align: center;
+            margin-bottom: 60px;
+          }
+    
+    }
+
+
+
+}
+
+
+.footer {
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+    .footer-text {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 500px;
+        height: 14px;
+        font-family:'Arial', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: $footer-color;
+    }
+
+    .email {
+        display:inline-block;
+        text-align: center;
+        justify-content: center;
+        vertical-align: middle;
+        gap: 10px;
+        padding: 6px;
+        line-height: 20px;
+        font-family:'Arial', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: $footer-color;
+        padding-right: 80px;
+    }
+
+    .mail-icon {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .telephone {
+        display:inline-block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        vertical-align: middle;
+        gap: 8px;
+        padding: 6px;
+        line-height: 20px;
+        font-family:'Arial', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: $footer-color;
+    
+    }
+
+    .telephone-icon{
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    hr {
+        border: none; 
+        height: 1px; 
+        background-color: rgba(12, 15, 81, 1); 
+        margin: 16px 0; 
+        width: 520px;
+    }
+
+    .footer-under-text {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 500px;
+        height: 20px;
+        font-family:'Arial', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: $footer-color;
+        margin-top: 16px;
+        padding-left: 25px;
+    }
+
+    .last-text {
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        justify-content: center;
+        font-family:'Arial', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: $footer-color;
+
+    }
+}
+

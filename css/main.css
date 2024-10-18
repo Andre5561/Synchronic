@@ -1,0 +1,271 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  max-width: 600px;
+}
+
+body {
+  background-image: url("../Images/synchronic-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 800px 90px;
+  background-image: url("../Images/tooth-bg.png");
+  background-position: center;
+  background-repeat: repeat;
+}
+.header .logo {
+  font-family: "Arial", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  color: rgb(0, 0, 0);
+}
+
+.content {
+  padding: 32px 40px 20px 40px;
+  position: absolute;
+}
+.content .first-card {
+  padding: 21px 240px 55px 20px;
+  height: 300px;
+  background: linear-gradient(45deg, rgb(0, 198, 251), rgb(0, 91, 234));
+  border-radius: 17px;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 20px;
+}
+.content .first-card .prize {
+  background-image: url("../Images/MAC.png");
+  background-repeat: no-repeat;
+  background-size: 210px 210px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 210px;
+  height: 210px;
+}
+.content .first-card .text-container {
+  font-family: "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+.content .first-card .sub-text {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  height: 100px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 12px;
+}
+.content .first-card .play {
+  width: 140px;
+  height: 40px;
+  border-radius: 100px;
+  padding: 8px 50px 8px 50px;
+  background: linear-gradient(45deg, rgb(41, 50, 60), rgb(72, 85, 99));
+  border: none;
+  font-family: "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.content .second-card {
+  padding: 21px 240px 55px 20px;
+  height: 300px;
+  background: linear-gradient(45deg, rgb(0, 198, 251), rgb(0, 91, 234));
+  border-radius: 17px;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 20px;
+}
+.content .second-card .prize {
+  background-image: url("../Images/Ipad.png");
+  background-repeat: no-repeat;
+  background-size: 210px 210px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 210px;
+  height: 210px;
+}
+.content .second-card .text-container {
+  font-family: "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+.content .second-card .sub-text {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  height: 100px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 12px;
+}
+.content .second-card .play {
+  width: 140px;
+  height: 40px;
+  border-radius: 100px;
+  padding: 8px 50px 8px 50px;
+  background: linear-gradient(45deg, rgb(41, 50, 60), rgb(72, 85, 99));
+  border: none;
+  font-family: "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.content .third-card {
+  padding: 21px 240px 55px 12px;
+  height: 230px;
+  background: linear-gradient(45deg, rgb(0, 198, 251), rgb(0, 91, 234));
+  border-radius: 17px;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 20px;
+}
+.content .third-card .text-container {
+  margin-top: 30px;
+  font-family: "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+.content .third-card .sub-text {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  height: 50px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 12px;
+}
+.content .third-card .prize {
+  background-image: url("../Images/Chest.png");
+  background-repeat: no-repeat;
+  background-size: 210px 210px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 210px;
+  height: 210px;
+}
+.content .third-card .button-container {
+  margin-bottom: 0;
+}
+.content .third-card .take {
+  width: 140px;
+  height: 40px;
+  border-radius: 100px;
+  padding: 12px 50px 8px 50px;
+  background: linear-gradient(45deg, rgb(41, 50, 60), rgb(72, 85, 99));
+  border: none;
+  font-family: "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.footer {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.footer .footer-text {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 500px;
+  height: 14px;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(82, 87, 92);
+}
+.footer .email {
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+  gap: 10px;
+  padding: 6px;
+  line-height: 20px;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(82, 87, 92);
+  padding-right: 80px;
+}
+.footer .mail-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer .telephone {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+  gap: 8px;
+  padding: 6px;
+  line-height: 20px;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(82, 87, 92);
+}
+.footer .telephone-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer hr {
+  border: none;
+  height: 1px;
+  background-color: rgb(12, 15, 81);
+  margin: 16px 0;
+  width: 520px;
+}
+.footer .footer-under-text {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 20px;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(82, 87, 92);
+  margin-top: 16px;
+  padding-left: 25px;
+}
+.footer .last-text {
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(82, 87, 92);
+}/*# sourceMappingURL=main.css.map */
